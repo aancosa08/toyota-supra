@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+  <channel>
+
+    <title>TOYOTA SUPRA</title>
+
+    <link>https://aancosa08.github.io/toyota-supra/</link>
+
+    <description>
+      Sitio educativo dedicado a la historia,
+      generaciones y motores del Toyota Supra.
+    </description>
+
+    <language>es</language>
+
+    <item>
+
+      <title>La historia del Toyota Supra</title>
+
+      <link>https://aancosa08.github.io/toyota-supra/blog.html</link>
+
+      <guid>https://aancosa08.github.io/toyota-supra/blog.html</guid>
+
+      <description>
+        Descubre la historia y evolución de las cinco
+        generaciones del Toyota Supra.
+      </description>
+
+    </item>
+
+    <item>
+
+      <title>Comparativa técnica del Supra</title>
+
+      <link>https://aancosa08.github.io/toyota-supra/tabla.html</link>
+
+      <guid>https://aancosa08.github.io/toyota-supra/tabla.html</guid>
+
+      <description>
+        Comparación de motores, versiones y potencias
+        de diferentes modelos Toyota Supra.
+      </description>
+
+    </item>
+
+    <item>
+
+      <title>Galería del Toyota Supra</title>
+
+      <link>https://aancosa08.github.io/toyota-supra/galeria.html</link>
+
+      <guid>https://aancosa08.github.io/toyota-supra/galeria.html</guid>
+
+      <description>
+        Fotografías, vídeos, audios y contenido
+        multimedia de las generaciones Supra.
+      </description>
+
+    </item>
+
+  </channel>
+
+</rss>
