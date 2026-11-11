@@ -37,14 +37,155 @@
 
     <main>
 
-        <h1>Encuesta sobre el Toyota Supra</h1>
+        <h1>Encuesta: ¿Cuál es tu Toyota Supra favorito?</h1>
 
         <p>
-            Participa en nuestra encuesta y dinos cuál es tu
-            generación favorita del Toyota Supra.
+            Participa en nuestra encuesta y comparte tus
+            preferencias sobre las generaciones del Toyota Supra.
+            Este formulario es una demostración: los datos
+            no se guardan.
         </p>
 
-        <p>Página en construcción.</p>
+        <form name="encuesta" action="formulario.html" method="get">
+
+            <fieldset>
+
+                <legend>Datos de ejemplo</legend>
+
+                <p>
+                    <label for="alias">
+                        Alias (no utilices datos personales)
+                    </label>
+
+                    <input type="text" id="alias" name="alias" minlength="2" maxlength="20">
+                </p>
+
+                <p>
+                    <label for="correo">
+                        Correo electrónico ficticio
+                    </label>
+
+                    <input type="email" id="correo" name="correo" placeholder="supra@example.com">
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Tu Toyota Supra favorito</legend>
+
+                <p>
+                    <input type="radio" id="a80" name="favorito" value="A80" checked>
+
+                    <label for="a80">Supra A80 MK4</label>
+
+                    <input type="radio" id="a90" name="favorito" value="A90">
+
+                    <label for="a90">GR Supra A90</label>
+
+                    <input type="radio" id="a70" name="favorito" value="A70">
+
+                    <label for="a70">Supra A70 MK3</label>
+
+                </p>
+
+                <p>
+                    <label for="fecha">
+                        Fecha de la encuesta
+                    </label>
+
+                    <input type="date" id="fecha" name="fecha" min="2026-11-11" max="2027-12-31">
+                </p>
+
+                <p>
+                    <label for="generaciones">
+                        ¿Cuántas generaciones conoces?
+                    </label>
+
+                    <input type="number" id="generaciones" name="generaciones" min="1" max="5" step="1" value="1">
+                </p>
+
+                <p>
+                    <label for="version">
+                        Versión favorita
+                    </label>
+
+                    <select id="version" name="version">
+                        <option value="A40">A40</option>
+                        <option value="A60">A60</option>
+                        <option value="A70">A70</option>
+                        <option value="A80">A80</option>
+                        <option value="A90">A90</option>
+                    </select>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Tus intereses</legend>
+
+                <p>
+                    <input type="checkbox" id="motores" name="intereses" value="motores">
+
+                    <label for="motores">Motores</label>
+
+                    <input type="checkbox" id="historia" name="intereses" value="historia">
+
+                    <label for="historia">Historia</label>
+
+                    <input type="checkbox" id="diseno" name="intereses" value="diseno">
+
+                    <label for="diseno">Diseño</label>
+                </p>
+
+                <p>
+                    <label for="interes">
+                        ¿Cuánto te gusta el Toyota Supra? (0-10)
+                    </label>
+
+                    <input type="range" id="interes" name="interes" min="0" max="10" step="1" value="5">
+                </p>
+
+                <p>
+                    <label for="comentarios">
+                        Comentarios (máximo 300 caracteres)
+                    </label>
+
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="40" maxlength="300"></textarea>
+                </p>
+
+                <p>
+                    <label for="foto">
+                        Adjuntar fotografía propia (JPG o PNG)
+                    </label>
+
+                    <input type="file" id="foto" name="foto" accept="image/jpeg,image/png">
+                </p>
+
+                <p>
+                    <input type="checkbox" id="normas" name="normas" value="si" required>
+
+                    <label for="normas">
+                        Entiendo que este formulario es una demostración
+                        y no guarda mis datos.
+                        (obligatorio)
+                    </label>
+                </p>
+
+            </fieldset>
+
+            <p>
+                <input type="submit" name="accion" value="Enviar encuesta">
+
+                <button type="submit" name="accion" value="informacion">
+                    Más información
+                </button>
+
+                <input type="reset" value="Borrar formulario">
+            </p>
+
+        </form>
 
         <p>
             <a href="#inicio">Volver al principio de la página</a>
