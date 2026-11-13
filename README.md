@@ -1,5 +1,5 @@
 "# toyota-supra" 
-# SUPRA LEGENDS
+# TOYOTA SUPRA
 
 ## 1. Descripción del proyecto
 
